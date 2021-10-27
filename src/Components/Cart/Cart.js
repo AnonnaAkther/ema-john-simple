@@ -23,6 +23,7 @@ const Cart = (props) => {
              <p>tax: {tax.toFixed(2)}</p>
              <p>GrandTotal: {grandTotal.toFixed(2)}</p>
              <p>Total: {total.toFixed(2)}</p>
+             {props.children}
         </div>
     );
 };
